@@ -13,6 +13,7 @@ While it pains me to taint such a great project with non-free dependencies, it w
 - Wolfgang Wiedmeyer's [OpenSSL fork](https://code.fossencdi.org/replicant_openssl.git/), full of security patches.
 
 ##Associated repositories
+- [GalaxyS2 common](https://github.com/GrimKriegor/replicant-device_samsung_galaxys2-common)
 - [SMDK4412 kernel](https://github.com/GrimKriegor/replicant-kernel_samsung_smdk4412)
 - [Libcore](https://github.com/GrimKriegor/replicant-libcore)
 - [OpenSSL](https://code.fossencdi.org/replicant_openssl.git/)
