@@ -13,6 +13,9 @@
 	<remote name="replicant"
 		fetch="https://git.replicant.us" />
 
+	<remote name="fossencdi"
+		fetch="https://code.fossencdi.org/" />
+
 	<!-- default -->
 
 	<default revision="refs/tags/cm-10.1.3"
@@ -72,7 +75,7 @@
 	<project path="bionic" name="CyanogenMod/android_bionic" />
 	<project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
 	<project path="dalvik" name="CyanogenMod/android_dalvik" />
-	<project path="libcore" name="replicant/libcore.git" remote="replicant" revision="replicant-4.2" />
+	<project path="libcore" name="GrimKriegor/replicant-libcore" revision="replicant-4.2" />
 	<project path="libnativehelper" name="CyanogenMod/android_libnativehelper" />
 
 	<!-- system -->
@@ -162,43 +165,12 @@
 
 	<!-- kernel -->
 
-	<project path="kernel/goldelico/gta04" name="replicant/kernel_goldelico_gta04.git" remote="replicant" revision="replicant-4.2" groups="device" />
-	<project path="kernel/samsung/aries" name="replicant/kernel_samsung_aries.git" remote="replicant" revision="replicant-4.2" groups="device" />
-	<project path="kernel/samsung/crespo" name="replicant/kernel_samsung_crespo.git" remote="replicant" revision="replicant-4.2" groups="device" />
-	<project path="kernel/samsung/smdk4412" name="replicant/kernel_samsung_smdk4412.git" remote="replicant" revision="replicant-4.2" groups="device" />
-	<project path="kernel/samsung/tuna" name="replicant/kernel_samsung_tuna.git" remote="replicant" revision="replicant-4.2" groups="device" />
-	<project path="kernel/samsung/espresso10" name="replicant/kernel_samsung_espresso10.git" remote="replicant" revision="replicant-4.2" groups="device" />
+	<project path="kernel/samsung/smdk4412" name="GrimKriegor/replicant-kernel_samsung_smdk4412" revision="replicant-4.2" groups="device" />
 
 	<!-- device -->
 
-	<project path="device/common" name="replicant/device_common.git" remote="replicant" revision="replicant-4.2" />
-	<project path="device/generic/armv7-a-neon" name="CyanogenMod/android_device_generic_armv7-a-neon" />
-	<project path="device/generic/armv7-a" name="CyanogenMod/android_device_generic_armv7-a" />
-	<project path="device/generic/common" name="CyanogenMod/android_device_generic_common" />
-	<project path="device/generic/goldfish" name="CyanogenMod/android_device_generic_goldfish" />
-	<project path="device/generic/mips" name="CyanogenMod/android_device_generic_mips" />
-	<project path="device/generic/x86" name="CyanogenMod/android_device_generic_x86" />
-	<project path="device/goldelico/gta04" name="replicant/device_goldelico_gta04.git" remote="replicant" revision="replicant-4.2" groups="device" />
-	<project path="device/google/accessory/arduino" name="CyanogenMod/android_device_google_accessory_arduino" groups="device" />
-	<project path="device/google/accessory/demokit" name="CyanogenMod/android_device_google_accessory_demokit" groups="device" />
-	<project path="device/sample" name="CyanogenMod/android_device_sample" groups="device" />
-	<project path="device/samsung/aries-common" name="replicant/device_samsung_aries-common.git" remote="replicant" revision="replicant-4.2" groups="device" />
-	<project path="device/samsung/crespo" name="replicant/device_samsung_crespo.git" remote="replicant" revision="replicant-4.2" groups="device" />
-	<project path="device/samsung/galaxys2-common" name="replicant/device_samsung_galaxys2-common.git" remote="replicant" revision="replicant-4.2" groups="device" />
-	<project path="device/samsung/galaxysmtd" name="replicant/device_samsung_galaxysmtd.git" remote="replicant" revision="replicant-4.2" groups="device" />
+	<project path="device/samsung/galaxys2-common" name="GrimKriegor/replicant-device_samsung_galaxys2-common" revision="replicant-4.2" groups="device" />
 	<project path="device/samsung/i9100" name="replicant/device_samsung_i9100.git" remote="replicant" revision="replicant-4.2" groups="device" />
-	<project path="device/samsung/i9300" name="replicant/device_samsung_i9300.git" remote="replicant" revision="replicant-4.2" groups="device" />
-	<project path="device/samsung/maguro" name="replicant/device_samsung_maguro.git" remote="replicant" revision="replicant-4.2" groups="device" />
-	<project path="device/samsung/n7000" name="replicant/device_samsung_n7000.git" remote="replicant" revision="replicant-4.2" groups="device" />
-	<project path="device/samsung/n7100" name="replicant/device_samsung_n7100.git" remote="replicant" revision="replicant-4.2" groups="device" />
-	<project path="device/samsung/omap4-common" name="replicant/device_samsung_omap4-common.git" remote="replicant" revision="replicant-4.2" groups="device" />
-	<project path="device/samsung/p3100" name="replicant/device_samsung_p3100.git" remote="replicant" revision="replicant-4.2" groups="device" />
-	<project path="device/samsung/p3110" name="replicant/device_samsung_p3110.git" remote="replicant" revision="replicant-4.2" groups="device" />
-	<project path="device/samsung/p5100" name="replicant/device_samsung_p5100.git" remote="replicant" revision="replicant-4.2" groups="device" />
-	<project path="device/samsung/p5110" name="replicant/device_samsung_p5110.git" remote="replicant" revision="replicant-4.2" groups="device" />
-	<project path="device/samsung/smdk4412-common" name="replicant/device_samsung_smdk4412-common.git" remote="replicant" revision="replicant-4.2" groups="device" />
-	<project path="device/samsung/tuna" name="replicant/device_samsung_tuna.git" remote="replicant" revision="replicant-4.2" groups="device" />
-	<project path="device/ti/panda" name="CyanogenMod/android_device_ti_panda" groups="device" />
 
 	<!-- external -->
 
@@ -222,7 +194,7 @@
 	<project path="external/busybox" name="CyanogenMod/android_external_busybox" />
 	<project path="external/bzip2" name="CyanogenMod/android_external_bzip2" />
 	<project path="external/checkpolicy" name="CyanogenMod/android_external_checkpolicy" />
-	<project path="external/chromium" name="CyanogenMod/android_external_chromium" />
+	<project path="external/chromium" name="external_chromium.git" remote="fossencdi" />
 	<project path="external/chromium-trace" name="CyanogenMod/android_external_chromium-trace" />
 	<project path="external/cibu-fonts" name="CyanogenMod/android_external_cibu-fonts" />
 	<project path="external/clang" name="CyanogenMod/android_external_clang" />
@@ -331,7 +303,7 @@
 	<project path="external/opencv" name="CyanogenMod/android_external_opencv" />
 	<project path="external/openfst" name="CyanogenMod/android_external_openfst" />
 	<project path="external/openssh" name="CyanogenMod/android_external_openssh" />
-	<project path="external/openssl" name="CyanogenMod/android_external_openssl" />
+	<project path="external/openssl" name="replicant_openssl.git" remote="fossencdi"/>
 	<project path="external/openvpn" name="CyanogenMod/android_external_openvpn" />
 	<project path="external/oprofile" name="CyanogenMod/android_external_oprofile" />
 	<project path="external/ping" name="CyanogenMod/android_external_ping" />
