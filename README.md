@@ -10,7 +10,7 @@ While it pains me to taint such a great project with non-free dependencies, it w
 - Support for isolated persistent recovery. [Based on Lanchon's proposal.](http://forum.xda-developers.com/galaxy-s2/orig-development/isorec-isolated-recovery-galaxy-s2-t3291176)
 - Dirty COW vulnerability fix. [From Torvalds' upstream changes](https://lkml.org/lkml/2016/10/19/860)
 - Support for the TLS 1.2 protocol, removal of SSL 3 and weak ciphers.
-- Wolfgang Wiedmeyer's [OpenSSL fork](https://code.fossencdi.org/replicant_openssl.git/), full of security patches.
+- Wolfgang Wiedmeyer's [OpenSSL](https://code.fossencdi.org/replicant_openssl.git/) and [Frameworks Base](https://code.fossencdi.org/frameworks_base.git) forks, full of security patches.
 
 ##Associated repositories
 - [GalaxyS2 common](https://github.com/GrimKriegor/replicant-device_samsung_galaxys2-common)
@@ -18,6 +18,7 @@ While it pains me to taint such a great project with non-free dependencies, it w
 - [Libcore](https://github.com/GrimKriegor/replicant-libcore)
 - [OpenSSL](https://code.fossencdi.org/replicant_openssl.git/)
 - [Chromium](https://code.fossencdi.org/external_chromium.git/)
+- [Frameworks Base](https://code.fossencdi.org/frameworks_base.git)
 
 ##Recent builds and signatures
 Public Key: 5E1C EF76 A78A A66B 0701 37C7 426E C780 9555 34E6

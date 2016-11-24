@@ -91,7 +91,7 @@
 	<!-- frameworks -->
 
 	<project path="frameworks/av" name="replicant/frameworks_av.git" remote="replicant" revision="replicant-4.2" />
-	<project path="frameworks/base" name="replicant/frameworks_base.git" remote="replicant" revision="replicant-4.2" />
+	<project path="frameworks/base" name="frameworks_base.git" remote="fossencdi" revision="master" />
 	<project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" />
 	<project path="frameworks/compile/linkloader" name="CyanogenMod/android_frameworks_compile_linkloader" />
 	<project path="frameworks/compile/llvm-ndk-cc" name="CyanogenMod/android_frameworks_compile_llvm-ndk-cc" />
