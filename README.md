@@ -2,7 +2,7 @@ On the process of fully ditching my shaddy Qualcomm based pocket spy I felt the 
 
 While it pains me to taint such a great project with non-free dependencies, it was necessary in order to be able to get rid of my current shaddy device.
 
-##Changes applied to Replicant 4.2
+## Changes applied to Replicant 4.2
 - Switched the internal storage from physical to emulated to allow encryption.
 - Re-enabled video recording, hardware video encoding and decoding. 
 [Based on Wolfgang's proposal for the S3.](https://www.mail-archive.com/replicant@lists.osuosl.org/msg00444.html) (Requires non-free MFC firmware)
@@ -12,7 +12,7 @@ While it pains me to taint such a great project with non-free dependencies, it w
 - Support for the TLS 1.2 protocol, removal of SSL 3 and weak ciphers.
 - Wolfgang Wiedmeyer's [OpenSSL](https://code.fossencdi.org/replicant_openssl.git/) and [Frameworks Base](https://code.fossencdi.org/frameworks_base.git) forks, full of security patches.
 
-##Associated repositories
+## Associated repositories
 - [GalaxyS2 common](https://github.com/GrimKriegor/replicant-device_samsung_galaxys2-common)
 - [SMDK4412 kernel](https://github.com/GrimKriegor/replicant-kernel_samsung_smdk4412)
 - [Libcore](https://github.com/GrimKriegor/replicant-libcore)
@@ -20,17 +20,17 @@ While it pains me to taint such a great project with non-free dependencies, it w
 - [Chromium](https://code.fossencdi.org/external_chromium.git/)
 - [Frameworks Base](https://code.fossencdi.org/frameworks_base.git)
 
-##Recent builds and signatures
+## Recent builds and signatures
 Public Key: 5E1C EF76 A78A A66B 0701 37C7 426E C780 9555 34E6
 
 <https://github.com/GrimKriegor/replicant/releases/>
 
-##Source code
+## Source code
     mkdir replicant-4.2
     cd replicant-4.2
     repo init -u https://github.com/GrimKriegor/replicant -b replicant-4.2
 
-##Repartitioning, expanding /data and shrinking /emmc
+## Repartitioning, expanding /data and shrinking /emmc
 (!!) **User discretion is advised** (!!)
 
 **Repartitioning the internal memory can brick your phone, be careful!**
@@ -53,7 +53,7 @@ Or even flash Replicant, its kernel+cwm-recovery and an optional separate recove
 
     heimdall flash --repartition --PIT I9100_14GiBdataPIT_grim.pit --KERNEL boot.img --FACTORYFS system.img [--RECOVERY twrp-*-i9100.img]
 
-##Required non-free files, firmware and drivers
+## Required non-free files, firmware and drivers
 Extracted from CyanogenMod 10.1.3 (cm-10.1.3-i9100.zip)
 
     system
